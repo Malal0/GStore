@@ -1,0 +1,172 @@
+/*/////////////////////////////////////////////////////////////
+                    GLOBAL SELECTORS
+/////////////////////////////////////////////////////////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Montserrat', Tahoma, sans-serif;
+}
+
+/*/////////////////////////////////////////////////////////////
+                    NAV SELECTORS
+/////////////////////////////////////////////////////////////*/
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 1em 0;
+}
+
+.link {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 2em;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+/*/////////////////////////////////////////////////////////////
+                    HERO SELECTORS
+/////////////////////////////////////////////////////////////*/
+
+.hero-section {
+    background-image: url("https://i.pinimg.com/originals/6d/95/3a/6d953ac98f5c3a53372e08d128cf7654.png");
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    padding: 2em 0;
+    padding-top: 6em;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    width: 200px;
+}
+
+.hero-title {
+    font-size: 2.25rem;
+}
+
+/*/////////////////////////////////////////////////////////////
+                    ABOUT SELECTORS
+/////////////////////////////////////////////////////////////*/
+
+.about-section {
+    padding: 4em 0;
+}
+
+/*/////////////////////////////////////////////////////////////
+                    FOOTER SELECTORS
+/////////////////////////////////////////////////////////////*/
+
+.footer {
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    padding: 2em 0;
+}
+
+/*/////////////////////////////////////////////////////////////
+                    STORE SELECTORS
+/////////////////////////////////////////////////////////////*/
+
+.store-section {
+    padding: 3em 0;
+}
+
+.store-product {
+    width: 200px;
+    align-content: center;
+    padding: 1em;
+}
+
+.store-product-img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.store-product-title {
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.store-product-price {
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.store-product-inputs {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: .5em;
+}
+
+.store-product-inputs>[type="number"] {
+    width: 3em;
+    margin: 0 .5em;
+    padding: .5em;
+    -moz-appearance: textfield;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.store-product-inputs>[type="number"]::-webkit-outer-spin-button,
+.store-product-inputs>[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.store-product-inputs>button {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    border: none;
+    background-color: #b7b;
+    color: #FFF;
+}
+
+#content-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*/////////////////////////////////////////////////////////////
+                    UTILITY SELECTORS
+/////////////////////////////////////////////////////////////*/
+
+.container {
+    width: clamp(280px, 90%, 780px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.green {
+    color: hsl(120, 37%, 53%);
+}
