@@ -1,2 +1,0 @@
-# GStore
- Generic Store
