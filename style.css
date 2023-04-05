@@ -11,6 +11,7 @@
 body {
     background-color: hsl(0, 0%, 95%);
     font-family: 'Montserrat', Tahoma, sans-serif;
+    /* padding-top: 3em; */
 }
 
 /*/////////////////////////////////////////////////////////////
@@ -18,11 +19,16 @@ body {
 /////////////////////////////////////////////////////////////*/
 
 .nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background-color: black;
     padding: 1em 0;
+}
+
+.links {
+    display: flex;
+    gap: 2em;
 }
 
 .link {
@@ -31,9 +37,10 @@ body {
     text-decoration: none;
 }
 
-.links {
-    display: flex;
-    gap: 2em;
+.link:hover {
+    color: hsl(120, 37%, 53%);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .logo {

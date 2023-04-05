@@ -1,7 +1,7 @@
 function Footer() {
 
     return (
-        <footer class="footer">
+        <footer className="footer">
             <p>&copy; GStore</p>
         </footer>
     )
